@@ -1,0 +1,305 @@
+.page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  user-select: none;
+  flex-direction: column;
+  background-color: #121212;
+}
+.page-header {
+  flex: 0;
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  min-width: 100%;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #101010;
+  align-items: center;
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+  justify-content: flex-start;
+  background-color: #1a1a1a;
+}
+.page-link {
+  display: contents;
+}
+.page-image {
+  height: 42px;
+  text-decoration: none;
+}
+.page-link1 {
+  display: contents;
+}
+.page-text {
+  color: var(--dl-color-primary-aula);
+  width: auto;
+  font-size: 32px;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+.page-nav {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+}
+.page-about {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.page-mac {
+  fill: #D9D9D9;
+  width: 24px;
+  height: 24px;
+}
+.page-link2 {
+  display: contents;
+}
+.page-about1 {
+  color: var(--dl-color-gray-900);
+  font-size: 22px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "Noto Sans";
+  font-weight: 300;
+  text-shadow: 2px 2px 6px #101010;
+  text-decoration: none;
+}
+.page-about1:hover {
+  text-decoration: underline;
+}
+.page-circ2 {
+  fill: #D9D9D9;
+  width: 6px;
+  height: 24px;
+}
+.page-faq {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.page-message {
+  fill: #D9D9D9;
+  width: 24px;
+  height: 24px;
+}
+.page-link3 {
+  display: contents;
+}
+.page-faq1 {
+  color: var(--dl-color-gray-900);
+  font-size: 22px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "Noto Sans";
+  font-weight: 300;
+  text-shadow: 2px 2px 6px #101010;
+  text-decoration: none;
+}
+.page-faq1:hover {
+  text-decoration: underline;
+}
+.page-circ1 {
+  fill: #D9D9D9;
+  width: 6px;
+  height: 24px;
+}
+.page-contacts {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.page-player {
+  fill: #D9D9D9;
+  width: 24px;
+  height: 24px;
+}
+.page-link4 {
+  display: contents;
+}
+.page-contacts1 {
+  color: var(--dl-color-gray-900);
+  font-size: 22px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "Noto Sans";
+  font-weight: 300;
+  text-shadow: 2px 2px 6px #101010;
+  text-decoration: none;
+}
+.page-contacts1:hover {
+  text-decoration: underline;
+}
+.page-link5 {
+  display: contents;
+}
+.page-download {
+  color: rgb(26, 26, 26);
+  box-shadow: rgb(23, 23, 23) 5px 5px 10px 0px;
+  font-style: normal;
+  margin-top: 0px;
+  transition: 0.3s;
+  font-family: "Poppins";
+  font-weight: 500;
+  margin-left: auto;
+  padding-top: var(--dl-space-space-halfunit);
+  margin-right: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 16px;
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: rgb(97, 130, 138);
+}
+.page-download:hover {
+  background-color: #82A1A9;
+}
+.page-welcome {
+  gap: var(--dl-space-space-sixunits);
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-direction: column;
+  padding-bottom: 2%;
+}
+.page-text09 {
+  color: var(--dl-color-gray-900);
+  font-family: "Poppins";
+}
+.page-container1 {
+  align-self: center;
+}
+.page-container2 {
+  display: contents;
+}
+.page-footer {
+  width: 100%;
+  display: flex;
+  max-width: 100%;
+  box-shadow: 0px -10px 10px 0px #101010;
+  margin-top: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  border-color: var(--dl-color-primary-aula);
+  border-width: 1px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #1b1b1b;
+  border-top-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.page-aula-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.page-link6 {
+  display: contents;
+}
+.page-image1 {
+  height: 38px;
+  text-decoration: none;
+}
+.page-link7 {
+  display: contents;
+}
+.page-text10 {
+  color: var(--dl-color-primary-aula);
+  width: auto;
+  font-size: 28px;
+  align-self: center;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+.page-text13 {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  text-shadow: 2px 2px 6px #101010;
+}
+@media(max-width: 991px) {
+  .page-nav {
+    display: none;
+  }
+  .page-download {
+    color: rgb(26, 26, 26);
+    box-shadow: rgb(23, 23, 23) 5px 5px 10px 0px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+    background-color: rgb(97, 130, 138);
+  }
+}
+@media(max-width: 767px) {
+  .page-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .page-nav {
+    display: none;
+  }
+  .page-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .page-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .page-download {
+    color: rgb(26, 26, 26);
+    box-shadow: rgb(23, 23, 23) 5px 5px 10px 0px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+    background-color: rgb(97, 130, 138);
+  }
+  .page-text09 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .page-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .page-text10 {
+    color: var(--dl-color-primary-aula);
+    font-size: 32px;
+    font-family: Poppins;
+    text-decoration: none;
+  }
+}
